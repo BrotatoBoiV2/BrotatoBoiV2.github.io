@@ -1,0 +1,91 @@
+body {
+    background: black;
+    color: lime;
+}
+
+h1 {
+    margin-left: 45.5vw;
+    margin-top: 1.666vh;
+}
+
+iframe {
+    border: 3px solid red;
+    width: 80vw;
+    height: 80vh;
+    margin-left: 10vw;
+    color: red;
+}
+
+footer {
+    margin-top: 1.666vh;
+    margin-left: 45vw;
+}
+
+button {
+    background: lime;
+    border: 1px solid red;
+    width: 20vw;
+    height: 5vh;
+    margin-left: 9.95vw;
+}
+
+button:hover {
+    background: green;
+}
+
+#main_div {
+    text-align: center;
+    width: 60vw;
+    height: 85vh;
+    margin-left: 3vw;
+    float: left;
+    border: 1px solid lime;
+    color: red;    
+}
+
+#main_div p {
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#info_div {
+    text-align: center;
+    width: 25vw;
+    margin-right: 5vw;
+    float: right;
+    /* border: 1px solid blue; */
+}
+
+#info_div p {
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    color: red;
+}
+
+#update_div {
+    border: 1px solid lime;
+    width: 25vw;
+    height: 45vh;
+    margin-bottom: 5vh;
+}
+
+#highlight_div {
+    border: 1px solid lime;
+    width: 25vw;
+    height: 35vh;
+    margin-top: 5vh;
+}
+
+#project_div {
+    text-align: center;
+    border: 1px solid lime;
+    margin-left: 7vw;
+    width: 85vw;
+    height: 85vh;
+}
+
+#project_div p {
+    margin-top: 5vh;
+}
