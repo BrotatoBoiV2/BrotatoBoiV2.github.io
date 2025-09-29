@@ -1,15 +1,26 @@
 body {
-    display: grid;
-    place-items: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; */
     background: black;
     color: lime;
     font-size: 1.666vmax;
 }
 
 iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3vw, 3vh;
+    flex-wrap: wrap;  */
     border: 3px solid red;
     width: 80vw;
-    height: 80vh;
+    height: 95vh;
     color: red;
 }
 
@@ -17,17 +28,23 @@ button {
     background: lime;
     border: 1px solid red;
     width: 20vw;
-    height: 5vh;
+    height: 10vh;
+    margin-top: -3vh;
 }
 
 button:hover {
     background: green;
 }
 
+footer {
+    margin-top: 100vh;
+}
+
 #main_div {
     text-align: center;
     width: 60vw;
-    height: 85vh;
+    height: 100vh;
+    margin-left: 3vw;
     border: 1px solid lime;
     color: red;    
 }
@@ -41,8 +58,10 @@ button:hover {
 #info_div {
     text-align: center;
     width: 25vw;
-    margin-right: 5vw;
-    float: right;
+    /* float: right; */
+    display: block;
+    margin-top: -100vh;
+    margin-left: 67vw;
     /* border: 1px solid blue; */
 }
 
@@ -54,6 +73,7 @@ button:hover {
 }
 
 #update_div {
+    flex: 1;
     border: 1px solid lime;
     width: 25vw;
     height: 45vh;
@@ -61,6 +81,7 @@ button:hover {
 }
 
 #highlight_div {
+    flex: 1;
     border: 1px solid lime;
     width: 25vw;
     height: auto;
@@ -79,7 +100,8 @@ button:hover {
     margin-top: 5vh;
 }
 
-.center_text {
-    display: grid;
-    place-items: center;
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
