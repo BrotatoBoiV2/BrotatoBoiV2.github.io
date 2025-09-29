@@ -1,8 +1,4 @@
 body {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%; */
     background: black;
     color: lime;
     font-size: 1.666vmax;
@@ -13,11 +9,6 @@ iframe {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -20%);
-    /* display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 3vw, 3vh;
-    flex-wrap: wrap;  */
     border: 3px solid red;
     width: 80vw;
     height: 95vh;
@@ -58,11 +49,9 @@ footer {
 #info_div {
     text-align: center;
     width: 25vw;
-    /* float: right; */
     display: block;
     margin-top: -100vh;
     margin-left: 67vw;
-    /* border: 1px solid blue; */
 }
 
 #info_div p {
