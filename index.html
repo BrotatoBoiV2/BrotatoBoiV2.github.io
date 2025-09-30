@@ -3,20 +3,23 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <link rel="stylesheet" href="./stylesheets/main_style.css"/>
+        <link rel="stylesheet" href="./stylesheets/main_style.css" defer/>
         <script src="./scripts/main_script.js" defer></script>
     </head>
     <body>
         <h1 class="center">Welcome!</h1>
 
-        <div class="center" id="nav_btns">
-            <button onclick="switch_frame('home')">Home</button>
-            <button onclick="switch_frame('projects')">Projects</button>
-            <button onclick="switch_frame('about')">About</button>
-        </div>
+        <div class="center" id="panel">
+            <div class="center" id="nav_btns">
+                <button onclick="switch_frame('home')">Home</button>
+                <button onclick="switch_frame('projects')">Projects</button>
+                <button onclick="switch_frame('about')">About</button>
+            </div>
 
-        <iframe class="center" src="./frames/home.html">
-        </iframe>
+            <!-- <div class="center">
+                <iframe id="frame_content" src="./frames/home.html"></iframe>
+            </div> -->
+        </div>
 
         <footer>
             <p class="center">
