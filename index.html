@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=deivce-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <link rel="stylesheet" href="./stylesheets/main_style.css"/>
-        <script src="./scripts/main_script.js"></script>
+        <link rel="stylesheet" href="./stylesheets/main_style.css" defer/>
+        <script src="./scripts/main_script.js" defer></script>
     </head>
     <body>
-        <h1>Welcome!</h1>
+        <h1 class="center">Welcome!</h1>
 
-        <div id="nav_btns">
-            <button onclick="switch_frame('home')">Home</button>
-            <button onclick="switch_frame('projects')">Projects</button>
-            <button onclick="switch_frame('about')">About</button>
+        <div class="center" id="panel">
+            <div class="center" id="nav_btns">
+                <button onclick="switch_frame('home')">Home</button>
+                <button onclick="switch_frame('projects')">Projects</button>
+                <button onclick="switch_frame('about')">About</button>
+            </div>
+
+            <!-- <div class="center">
+                <iframe id="frame_content" src="./frames/home.html"></iframe>
+            </div> -->
         </div>
-        <iframe id="frame_content" src="./frames/home.html">
-        </iframe>
 
         <footer>
-            <p>
+            <p class="center">
                 @BrotatoBoi         ~           2025.09.29
             </p>
         </footer>
