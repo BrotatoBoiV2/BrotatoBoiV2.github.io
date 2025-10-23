@@ -3,27 +3,31 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <link rel="stylesheet" href="./stylesheets/main_style.css" defer/>
+        <link rel="stylesheet" href="./stylesheets/main_style.css"/>
         <script src="./scripts/main_script.js" defer></script>
     </head>
     <body>
         <h1 class="center">Welcome!</h1>
 
-        <div class="center" id="panel">
-            <div class="center" id="nav_btns">
-                <button onclick="switch_frame('home')">Home</button>
-                <button onclick="switch_frame('projects')">Projects</button>
-                <button onclick="switch_frame('about')">About</button>
-            </div>
+        <headers>
+            <nav>
+                <button data-page="home">Home</button>
+                <button data-page="projects">Projects</button>
+                <button data-page="about">About</button>
+            </nav>
+        </headers>
 
             <!-- <div class="center">
                 <iframe id="frame_content" src="./frames/home.html"></iframe>
             </div> -->
-        </div>
+            <main id="content">
+                <!-- Dynamic page loaded here. -->
+            </main>
+        </headers>
 
         <footer>
             <p class="center">
-                @BrotatoBoi         ~           2025.09.29
+                @BrotatoBoi         ~           2025.10.23
             </p>
         </footer>
     </body>
