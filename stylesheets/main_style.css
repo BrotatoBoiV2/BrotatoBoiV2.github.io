@@ -36,6 +36,17 @@ nav button.active {
     }
 }
 
+a:link {
+    color: hotpink;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:visited {
+    color: red;
+}
 /* button {
     background: lime;
     border: 0.20rem solid red;
@@ -115,6 +126,13 @@ button:hover {
     margin-top: -3vh;
     overflow-y: auto;
     border: 0.1rem solid lime;
+}
+
+#project-img {
+    max-width: 50%;
+    margin-left: 25%;
+    height: auto;
+    display: block;
 }
 
 .center {
