@@ -26,9 +26,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const projects = {
         "game-of-life-qe": {
             title: "Game of Life: Quantum Edition",
-            description: "A Python-based recreation of Conway's Game of Life using Quantum Randomness.",
-            img: "./assets/images/gol_demo.png",
+            subtitle: "A Quantum-Inspired Recreation of Conway's Classic Cellular Automaton",
+            description: "An experimental Python-based project that introduces quantum randomness into Conway's Game of Life, creating unpredictable initial states and exploring quantum-inspired evolution patterns.",
+            technologies: ["Python 3.13.7", "Qiskit 2.2.1", "Qiskit-Aer 0.17.2", "Colorama 0.4.6"],
+            highlights: [
+                "Quantum-driven initialization: uses quantum randomness to set the initial grid state.",
+                "Real-time movement: observe the automaton's behavior in real-time.",
+                "Continuous simulation mode: run the simulation automatically to watch long-term pattern evolution.",
+                "Terminal visualization: uses Colorama for colored text, and has smooth updates, including toroidal edge wrapping.",
+                "Includes classic pre-seeded patterns such as gliders, blinkers, and blocks."
+            ],
+            image: "assets/images/game-of-life-qe.png",
             source: "https://github.com/BrotatoBoiV2/Game-of-Life",
+            demo: null
         },
     };
 
@@ -39,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return el;
     }
 
-    // === Load a page into `#content`. ~ //
+    // ~ Load a page into `#content`. ~ //
     async function loadPage(page) {
         const file = `/frames/${page}.html`;
         try {
@@ -55,25 +65,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ~ Load a specific project into the current page. ~ //
     function loadProject(name) {
+        const container = document.getElementById("project-container");
         const project = projects[name];
-        const title = getEl("project-title");
-        const description = getEl("project-description");
-        const image = getEl("project-img");
-        const source = getEl("project-source");
 
-        if (!title || !description || !image || !source) return;
-
-        if (project) {
-            title.textContent = project.title;
-            description.textContent = project.description;
-            image.src = project.img;
-            source.href = project.source;
-        } else {
-            title.textContent = "Project not found!";
-            description.textContent = "";
-            image.src = "";
-            source.removeAttribute("href");
-        }
+        container.innerHTML = `
+            <h1>${project.title}</h1>
+            <h3>${project.subtitle}</h3>
+            <img src="${project.image}" alt="${project.title}" id="project-image">
+            <p>${project.description}</p>
+            <h4>Technologies</h4>
+            <ul>${project.technologies.map(t => `<li><span>${t}</span></li>`).join("")}</ul>
+            <h4>Highlights</h4>
+            <ul>${project.highlights.map(h => `<li><span>${h}</span></li>`).join("")}</ul>
+            <br><br><br>
+            <div class="links">
+                <a href="${project.source}" target="_blank">Source Code</a>
+                ${project.demo ? `<a href="${project.demo}" target="_blank">Live Demo</a>` : ""}
+            </div>
+        `;
     }
 
     // ~ Handle hash changes. ~ //
@@ -105,10 +114,10 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("nav button[data-page]").forEach((btn) => {
         btn.addEventListener("click", () => {
             const page = btn.getAttribute("data-page");
-            window.location.hash = page; // triggers handleHashChange()
+            window.location.hash = page; // ~ Triggers handleHashChange(). ~ //
         });
     });
 
-    // === POPSTATE HANDLER (for back/forward navigation) ===
+    // ~ Popstate handler. (for back/forward navigation) ~ //
     window.addEventListener("popstate", handleHashChange);
 });

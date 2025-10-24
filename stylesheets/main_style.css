@@ -68,6 +68,8 @@ a:hover {
 a:visited {
     color: red;
 }
+
+
 /* button {
     background: lime;
     border: 0.20rem solid red;
@@ -80,7 +82,7 @@ button:hover {
     background: green;
 } */
 
-#main_div {
+#main-div {
     flex: 2;
     text-align: center;
     width: 60vw;
@@ -90,13 +92,13 @@ button:hover {
     color: red;    
 }
 
-#main_div p {
+#main-div p {
     margin-top: 10vh;
     margin-left: 5vw;
     margin-right: 5vw;
 }
 
-#info_div {
+#info-div {
     flex: 1;
     text-align: center;
     font-size: 0.75rem;
@@ -106,38 +108,57 @@ button:hover {
     margin-left: 65vw;
 }
 
-#info_div p {
+#info-div p {
     margin-top: 3vh;
     margin-left: 3vw;
     margin-right: 3vw;
     color: red;
 }
 
-#update_div {
+#update-div {
     flex: 1;
     border: 0.10rem solid lime;
     width: 30vw;
     height: 50vh;
-    /* margin-bottom: 5vh; */
 }
 
-#highlight_div {
+#highlight-div {
     flex: 1;
     border: 0.10rem solid lime;
     width: 30vw;
-    height: 50vh;;
-    /* margin-top: 5vh; */
+    height: 50vh;
 }
 
-#project_div {
+#project-container {
     text-align: center;
     border: 0.10rem solid lime;
     margin-left: 7vw;
     width: 85vw;
     height: 85vh;
+    overflow-y: auto;
 }
 
-#project_div p {
+#project-container ul {
+    margin: 0;
+    padding-left: 1.2em;
+    line-height: 1.4;
+    list-style-position: inside;
+}
+
+#project-container ul li {
+    margin-bottom: 0.2em;
+}
+
+#project-div {
+    text-align: center;
+    border: 0.10rem solid lime;
+    margin-left: 7vw;
+    width: 85vw;
+    height: 85vh;
+    overflow-y: auto;
+}
+
+#project-div p {
     margin-top: 5vh;
 }
 
@@ -149,7 +170,7 @@ button:hover {
     border: 0.1rem solid lime;
 }
 
-#project-img {
+#project-image {
     max-width: 50%;
     margin-left: 25%;
     height: auto;
@@ -160,4 +181,8 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.links {
+    margin-bottom: 3vh;
 }
