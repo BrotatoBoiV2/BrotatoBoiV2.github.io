@@ -69,19 +69,6 @@ a:visited {
     color: red;
 }
 
-
-/* button {
-    background: lime;
-    border: 0.20rem solid red;
-    width: 33%;
-    height: 10vh;
-    margin-top: -3vh;
-}
-
-button:hover {
-    background: green;
-} */
-
 #main-div {
     flex: 2;
     text-align: center;
@@ -128,7 +115,7 @@ button:hover {
     width: 30vw;
     height: 50vh;
 }
-
+/* ~ Make into less spaghetti. ~ */
 #project-container {
     text-align: center;
     border: 0.10rem solid lime;
