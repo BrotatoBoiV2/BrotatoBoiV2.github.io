@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // ~ Helper: Safely get element by id. ~ //
     function getEl(id) {
         const el = document.getElementById(id);
-        if (!el) console.warn(`⚠️ Missing element: #${id}`);
+        if (!el) console.warn(`Missing element: #${id}`);
         return el;
     }
 

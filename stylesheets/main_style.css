@@ -3,9 +3,9 @@
                 Programmer: Aaron "A.J." Cassell. (@BrotatoBoi)
                         Program Name: Portfolio Website.
 Description: My portfolio website that showcases all of my projects I made.
-                           File: main_style.css
+                    File: ./stylesheets/main_style.css
                              Date: 2025/04/19
-                           Version: 2025.10.23
+                           Version: 2026.01.21
 
 ===============================================================================
 
@@ -57,8 +57,8 @@ nav button.active {
     }
 }
 
-a:link {
-    color: hotpink;
+a {
+    color: pink;
 }
 
 a:hover {
@@ -66,7 +66,7 @@ a:hover {
 }
 
 a:visited {
-    color: red;
+    color: rgb(255, 0, 212);
 }
 
 #main-div {
