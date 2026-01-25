@@ -181,12 +181,6 @@ a:visited {
     overflow-y: auto;
 }
 
-#center-div p {
-    /* width: 45vw;
-    margin-left: 10vw;
-    margin-top: 6vh; */
-}
-
 .center {
     display: flex;
     justify-content: center;
