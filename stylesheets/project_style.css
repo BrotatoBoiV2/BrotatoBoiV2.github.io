@@ -19,52 +19,55 @@ Description: My portfolio website that showcases all of my projects I made.
 */
 
 
-#project-info {
-    color: red;
-    border: 2px lime solid;
-    width: 60vw;
-    height: 75vh;
-    margin-left: 20vw;
-    overflow-y: auto;
-}
-
-#project-info p {
-    width: 45vw;
-    padding: 3vh 3vw 0 3vw;
-}
-
 #summary {
-    border: 2px lime solid;
-    margin-left: 4.5vw;
+    border: 3px lime solid;
     height: 25vh;
+    width: 45vw;
+    margin-left: 6vw;
+    padding-left: 1.5vw;
+    padding-top: 1.5vh;
+    padding-right: 1.5vw;
 }
 
 #note {
-    margin-left: 8vw;
+    margin-left: 12vw;
+    margin-top: 5vh;
 }
 
 #versions {
-    flex: 3;
+    /* flex: 2; */
     display: flex;
 }
 
 #current-version {
-    flex: 2;
+    /* flex: 1; */
     border: 2px lime solid;
     width: 25vw;
     height: 20vh;
-    margin-left: 4.5vw;
+    margin-left: 7vw;
     padding: 1.5vh 1.5vw 0 1.5vw;
     overflow-y: auto;
 }
 
+#current-version li {
+    margin-left: 1.5vw;
+}
+
+#current-version a {
+    margin-left: 3vw;
+}
+
 #previous-versions {
-    flex: 1;
+    /* flex: 1; */
     border: 2px lime solid;
-    width: 10vw;
+    width: 12vw;
     height: 20vh;
     overflow-y: auto;
-    margin-left: 1.5vw;
+    margin-left: 3vw;
     margin-right: 7.5vh;
     padding: 1.5vh 1.5vw 0 1.5vw;
+}
+
+#previous-versions li {
+    margin-left: 1.5vw;
 }

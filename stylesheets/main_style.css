@@ -37,7 +37,7 @@ nav button {
     flex: 1 1 100px;
     padding: 1vw 1.5vw;
     font-size: 1rem;
-    color: green;
+    color: black;
     background-color: lime;
     border: none;
     border-radius: 5px;
@@ -138,7 +138,7 @@ a:visited {
 
 #project-div {
     text-align: center;
-    border: 0.10rem solid lime;
+    border: 2px solid lime;
     margin-left: 7vw;
     width: 85vw;
     height: 85vh;
@@ -147,6 +147,14 @@ a:visited {
 
 #project-div p {
     margin-top: 5vh;
+}
+
+#project {
+    color: red;
+    border: 2px solid lime;
+    width: 25vw;
+    margin-left: 17.3vw;
+    margin-bottom: 3vh;
 }
 
 #panel {
@@ -162,6 +170,21 @@ a:visited {
     margin-left: 25%;
     height: auto;
     display: block;
+}
+
+#center-div {
+    color: red;
+    border: 2px lime solid;
+    width: 60vw;
+    height: 75vh;
+    margin-left: 20vw;
+    overflow-y: auto;
+}
+
+#center-div p {
+    /* width: 45vw;
+    margin-left: 10vw;
+    margin-top: 6vh; */
 }
 
 .center {
