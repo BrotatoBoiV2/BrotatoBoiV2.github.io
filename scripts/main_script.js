@@ -3,9 +3,9 @@
                 Programmer: Aaron "A.J." Cassell. (@BrotatoBoi)
                         Program Name: Portfolio Website.
 Description: My portfolio website that showcases all of my projects I made.
-                              File: main_script.js
+                        File: ./scripts/main_script.js
                              Date: 2025/04/19
-                           Version: 2025.10.23
+                           Version: 2026.01.26
 
 ===============================================================================
 
