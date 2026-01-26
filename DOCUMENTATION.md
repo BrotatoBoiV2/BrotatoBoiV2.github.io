@@ -23,3 +23,4 @@
 \*\*\*Update highlights to include Spud.\*\*\*
 \*\*\*Add a tutorial for Spud.\*\*\*
 \*\*\*Project display needs to be better.\*\*\*
+\*Clean up the sript file.\*
