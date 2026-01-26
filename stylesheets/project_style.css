@@ -1,0 +1,74 @@
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Programmer: Aaron "A.J." Cassell. (@BrotatoBoi)
+                        Program Name: Portfolio Website.
+Description: My portfolio website that showcases all of my projects I made.
+                    File: ./stylesheets/project_styles.css
+                             Date: 2026/01/21
+                           Version: 2026.01.26
+
+===============================================================================
+
+                        Copyright (C) 2025 BrotatoBoi 
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published
+        by: The Free Software Foundation, either the version 3 of the
+        License, or any later version.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+
+#summary {
+    border: 3px lime solid;
+    height: 25vh;
+    width: 45vw;
+    margin-left: 20vw;
+    padding-left: 1.5vw;
+    padding-top: 1.5vh;
+    padding-right: 1.5vw;
+}
+
+#note {
+    margin-left: 25vw;
+    margin-top: 5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    width: 33vw;
+}
+
+#versions {
+    display: flex;
+}
+
+#current-version {
+    border: 2px lime solid;
+    width: 75vw;
+    height: 20vh;
+    margin-left: 7vw;
+    margin-right: 3vw;
+    padding: 1.5vh 1.5vw 0 1.5vw;
+    overflow-y: auto;
+}
+
+#current-version li {
+    margin-left: 1.5vw;
+}
+
+#current-version a {
+    margin-left: 3vw;
+}
+
+#previous-versions {
+    border: 2px lime solid;
+    width: 75vw;
+    height: 20vh;
+    overflow-y: auto;
+    margin-left: 3vw;
+    margin-right: 7.5vh;
+    padding: 1.5vh 1.5vw 0 1.5vw;
+}
+
+#previous-versions li {
+    margin-left: 3vw;
+}

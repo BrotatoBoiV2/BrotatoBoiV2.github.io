@@ -3,9 +3,9 @@
                 Programmer: Aaron "A.J." Cassell. (@BrotatoBoi)
                         Program Name: Portfolio Website.
 Description: My portfolio website that showcases all of my projects I made.
-                           File: main_style.css
+                    File: ./stylesheets/main_style.css
                              Date: 2025/04/19
-                           Version: 2025.10.23
+                           Version: 2026.01.26
 
 ===============================================================================
 
@@ -37,7 +37,7 @@ nav button {
     flex: 1 1 100px;
     padding: 1vw 1.5vw;
     font-size: 1rem;
-    color: green;
+    color: black;
     background-color: lime;
     border: none;
     border-radius: 5px;
@@ -57,8 +57,37 @@ nav button.active {
     }
 }
 
-a:link {
-    color: hotpink;
+footer {
+    margin-top: 7vh;
+    margin-bottom: -3vh;
+    height: 2vh;
+}
+
+footer p {
+    margin-top: -0.5vh;
+}
+
+bold {
+    font-weight: bold;
+    color: cyan;
+}
+
+#highlight-sep {
+    color: darkgreen;
+    width: 20vw;
+    margin-top: -1.5vh;
+    margin-bottom: -3vh;
+}
+
+#head-sep {
+    color: darkgreen;
+    width: 5vw;
+    margin-top: -1.5vh;
+    margin-bottom: 3vh;
+}
+
+a {
+    color: pink;
 }
 
 a:hover {
@@ -66,21 +95,22 @@ a:hover {
 }
 
 a:visited {
-    color: red;
+    color: rgb(255, 0, 212);
 }
 
 #main-div {
     flex: 2;
     text-align: center;
-    width: 60vw;
-    height: 100vh;
-    /* margin-left: 3vw; */
-    border: 0.10rem solid lime;
+    width: 50vw;
+    height: 58vh;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    border: 3px solid lime;
     color: red;    
 }
 
 #main-div p {
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     margin-left: 5vw;
     margin-right: 5vw;
 }
@@ -91,8 +121,8 @@ a:visited {
     font-size: 0.75rem;
     width: 25vw;
     display: block;
-    margin-top: -100vh;
-    margin-left: 65vw;
+    margin-top: -58vh;
+    margin-left: 63vw;
 }
 
 #info-div p {
@@ -104,21 +134,25 @@ a:visited {
 
 #update-div {
     flex: 1;
-    border: 0.10rem solid lime;
-    width: 30vw;
-    height: 50vh;
+    border: 3px solid lime;
+    width: 25;
+    height: 26vh;
+    margin-bottom: 3vh;
+    overflow-y: auto;
 }
 
 #highlight-div {
     flex: 1;
-    border: 0.10rem solid lime;
-    width: 30vw;
-    height: 50vh;
+    border: 3px solid lime;
+    width: 25;
+    height: 26vh;
+    overflow-y: auto;
 }
+
 /* ~ Make into less spaghetti. ~ */
 #project-container {
     text-align: center;
-    border: 0.10rem solid lime;
+    border: 3px solid lime;
     margin-left: 7vw;
     width: 85vw;
     height: 85vh;
@@ -138,15 +172,23 @@ a:visited {
 
 #project-div {
     text-align: center;
-    border: 0.10rem solid lime;
+    border: 2px solid lime;
     margin-left: 7vw;
     width: 85vw;
-    height: 85vh;
+    height: 55vh;
     overflow-y: auto;
 }
 
 #project-div p {
     margin-top: 5vh;
+}
+
+#project {
+    color: red;
+    border: 2px solid lime;
+    width: 25vw;
+    margin-left: 17.3vw;
+    margin-bottom: 3vh;
 }
 
 #panel {
@@ -162,6 +204,15 @@ a:visited {
     margin-left: 25%;
     height: auto;
     display: block;
+}
+
+#center-div {
+    color: red;
+    border: 2px lime solid;
+    width: 90vw;
+    height: 75vh;
+    margin-left: 5vw;
+    overflow-y: auto;
 }
 
 .center {
