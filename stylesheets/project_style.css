@@ -23,28 +23,30 @@ Description: My portfolio website that showcases all of my projects I made.
     border: 3px lime solid;
     height: 25vh;
     width: 45vw;
-    margin-left: 6vw;
+    margin-left: 20vw;
     padding-left: 1.5vw;
     padding-top: 1.5vh;
     padding-right: 1.5vw;
 }
 
 #note {
-    margin-left: 12vw;
+    margin-left: 25vw;
     margin-top: 5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    width: 33vw;
 }
 
 #versions {
-    /* flex: 2; */
     display: flex;
 }
 
 #current-version {
-    /* flex: 1; */
     border: 2px lime solid;
-    width: 25vw;
+    width: 75vw;
     height: 20vh;
     margin-left: 7vw;
+    margin-right: 3vw;
     padding: 1.5vh 1.5vw 0 1.5vw;
     overflow-y: auto;
 }
@@ -58,9 +60,8 @@ Description: My portfolio website that showcases all of my projects I made.
 }
 
 #previous-versions {
-    /* flex: 1; */
     border: 2px lime solid;
-    width: 12vw;
+    width: 75vw;
     height: 20vh;
     overflow-y: auto;
     margin-left: 3vw;
@@ -69,5 +70,5 @@ Description: My portfolio website that showcases all of my projects I made.
 }
 
 #previous-versions li {
-    margin-left: 1.5vw;
+    margin-left: 3vw;
 }
