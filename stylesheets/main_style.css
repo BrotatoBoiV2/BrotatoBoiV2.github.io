@@ -67,6 +67,11 @@ footer p {
     margin-top: -0.5vh;
 }
 
+bold {
+    font-weight: bold;
+    color: cyan;
+}
+
 #highlight-sep {
     color: darkgreen;
     width: 20vw;
