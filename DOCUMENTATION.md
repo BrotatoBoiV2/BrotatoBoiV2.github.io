@@ -26,6 +26,10 @@
   - Finished reintroducing the Game of Life page.
   - I need to make demo assets for Spud.
 
+* 16:57
+  - I need to add the "Tech Stack" section to the projects.
+  - I also need to add the versions page for GoL:QE.
+
 # TODO
 !Could look better on mobile.!
 \*\*\*Dynamic Page creation.\*\*\*
