@@ -5,7 +5,7 @@
 Description: My portfolio website that showcases all of my projects I made.
                         File: ./scripts/main_script.js
                              Date: 2025/04/19
-                           Version: 2026.01.26
+                           Version: 2026.01.27
 
 ===============================================================================
 

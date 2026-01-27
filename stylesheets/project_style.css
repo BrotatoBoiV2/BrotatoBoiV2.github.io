@@ -5,7 +5,7 @@
 Description: My portfolio website that showcases all of my projects I made.
                     File: ./stylesheets/project_styles.css
                              Date: 2026/01/21
-                           Version: 2026.01.26
+                           Version: 2026.01.27
 
 ===============================================================================
 
@@ -30,7 +30,7 @@ Description: My portfolio website that showcases all of my projects I made.
 }
 
 #note {
-    margin-left: 25vw;
+    margin-left: 30vw;
     margin-top: 5vh;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
@@ -71,4 +71,24 @@ Description: My portfolio website that showcases all of my projects I made.
 
 #previous-versions li {
     margin-left: 3vw;
+}
+
+#demo-image {
+    max-width: 55vw;
+    margin-left: 30vh;
+    margin-bottom: 6vh;
+}
+
+#demo-sep {
+    color: darkgreen;
+    width: 65vw;
+    margin-top: 1.5vh;
+    margin-bottom: 10vh;
+}
+
+#demo-video {
+    width: 30vw;
+    height: 25vh;
+    margin-left: 53vh;
+    margin-bottom: 3vh;
 }

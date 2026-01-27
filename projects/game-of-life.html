@@ -20,13 +20,74 @@ Description: My portfolio website that showcases all of my projects I made.
 
  
  <!DOCTYPE html>
+
  <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+        <link rel="stylesheet" href="../stylesheets/project_style.css" defer/>
         <link rel="stylesheet" href="../stylesheets/main_style.css" defer/>
+
     </head>
     <body>
-        Under construction!
+        <h1 class="center">Game of Life: Quantum Edition</h1>
+
+        <p style="color: red;" class="center">
+            
+        </p>
+
+        <div id="center-div">
+            <p id="summary">
+                An experimental Python-based project that introduces
+                quantum randomness into Conway's Game of Life,
+                creating unpredictable initial states and exploring
+                quantum-inspired evolution patterns.
+            </p>
+            
+            <div id="versions">
+                <ul id="current-version">
+                    Current Version: 2.5-2025.10.14
+
+                    <br>
+                    <br>
+                    <li>Code Clean: Some code clean-ups with
+                        AI Assistance.</li>
+                    <li>Command Selection: The mode can be 
+                        selected via command line arguments.</li>
+                    <li>Live Loading: Added a live loading screen
+                        so you can see it is still active.</li>
+                </ul>
+
+                <ul id="previous-versions">
+                    Previous Versions:
+
+                    <br>
+                    <br>
+                    <li>v2.4-2025.10.13</li>
+                    <li>v1.3-2025.10.10</li>
+                    <li>v1.0-2025.10.09</li>
+                </ul>
+            </div>
+
+            <p id="note">
+                You can find the source code to this project in 
+                <a href="https://github.com/BrotatoBoiV2/Game-of-Life">
+                    The GitHub Repo
+                </a>.
+            </p>
+
+            <hr id="demo-sep">
+
+            <h2 class="center">Demos</h2>
+            <img id="demo-image" src="../assets/images/game-of-life-qe.png"/>
+
+            <iframe id="demo-video" 
+                src="https://www.youtube.com/embed/oJUv5a1jjpE" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+
+
+        </div>
     </body>
  </html>
